@@ -10,16 +10,19 @@
 mod_aa_plot_ui <- function(id){
   ns <- NS(id)
   tagList(
-    sidebarLayout(
-      sidebarPanel(
-        textAreaInput(ns("peptide"),
+    shiny::sidebarLayout(
+      shiny::sidebarPanel(
+        shiny::textAreaInput(inputId = ns("peptide"),
                       label = h3("Input sequence"),
                       width = 300,
                       height = 100,
-                      placeholder = "Input sequence here...")
+                      placeholder = "Input peptide sequence here..."
+        )
       ),
-      mainPanel(
-        "plot"
+      shiny::mainPanel(
+        shiny::plotOutput(
+          outputId = ns("abundance")
+        )
       )
     )
   )
