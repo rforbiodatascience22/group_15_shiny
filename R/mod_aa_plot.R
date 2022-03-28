@@ -12,7 +12,8 @@ mod_aa_plot_ui <- function(id){
   tagList(
     sidebarLayout(
       sidebarPanel(
-        "peptide_sequence"
+        textInput("sequence", label = h3("Input sequence"),
+                  value = "Input sequence here...")
       ),
       mainPanel(
         "plot"
