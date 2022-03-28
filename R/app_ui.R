@@ -15,7 +15,7 @@ app_ui <- function(request) {
         tabPanel(title = "panel1",
                  "module1"),
         tabPanel(title = "panel2",
-                 "aa_plot")
+                 mod_aa_plot_ui("aa_plot_1"))
       )
     )
   )
