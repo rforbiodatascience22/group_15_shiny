@@ -1,0 +1,24 @@
+---
+title: "Discussion_Assignment"
+author: "s173686, 174586,"
+date: '2022-03-28'
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Discussion about Shiny app creation
+
+**What did you find most challenging about creating a shiny app?**
+
+**What do you feel are the benefits and challenges with using golem for app development?**
+
+**Maintaining reproducibility when using shiny apps is a challenge. As an example, some pharma-companies display databases to medical doctors for pointy-clicky data exploration. What are your thoughts on maintaining reproducibility in that scenario? What if the database is updated or the app is updated with new or changed functionality?**
+
+**What other challenges and limitations do you see shiny apps may have? Please elaborate.**
+
+*Deploy the updated app to shinyapps.io.*
+
+*Hand in a pdf with you discussion points and links to your shiny app GitHub page and the shinyapps.io app.*
