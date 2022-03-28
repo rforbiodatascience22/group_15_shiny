@@ -11,6 +11,8 @@ URL: https://github.com/rforbiodatascience22/group_15_shiny
 BugReports: https://github.com/rforbiodatascience22/group_15_shiny/issues
 Imports: 
     config (>= 0.3.1),
+    DNATGC,
+    ggplot2,
     golem (>= 0.3.2),
     magrittr,
     shiny (>= 1.7.1)
