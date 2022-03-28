@@ -10,3 +10,6 @@ $run_dev.*
 ^dnapro\.Rcheck$
 ^dnapro.*\.tar\.gz$
 ^dnapro.*\.tgz$
+^LICENSE\.md$
+^README\.Rmd$
+^CODE_OF_CONDUCT\.md$

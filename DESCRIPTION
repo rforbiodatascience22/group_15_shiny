@@ -1,13 +1,9 @@
 Package: dnapro
-Title: An Amazing Shiny App
+Title: Application for conversion of amino acids
 Version: 0.0.0.9000
-Authors@R: 
-    person(given = "firstname",
-           family = "lastname",
-           role = c("aut", "cre"),
-           email = "your@email.com")
-Description: What the package does (one paragraph).
-License: What license is it under?
+Authors@R: person('Soren', 'Sandgaard', email = 's173686@student.dtu.dk', role = c('cre', 'aut'))
+Description: Tools for working with the central dogma. This is done using several functions available in this app.
+License: MIT + file LICENSE
 Imports: 
     config (>= 0.3.1),
     golem (>= 0.3.2),
@@ -15,3 +11,8 @@ Imports:
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.1
+URL: https://github.com/rforbiodatascience22/group_15_shiny
+BugReports: https://github.com/rforbiodatascience22/group_15_shiny/issues
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
