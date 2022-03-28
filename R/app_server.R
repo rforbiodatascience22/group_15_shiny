@@ -7,5 +7,6 @@
 #' @importFrom magrittr %>%
 app_server <- function(input, output, session) {
   # Your application server logic
+  mod_translate_server("translate_1")
   mod_aa_plot_server("aa_plot_1")
 }
