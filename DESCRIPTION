@@ -1,7 +1,24 @@
 Package: dnapro
 Title: Application for conversion of amino acids
 Version: 0.0.0.9000
-Authors@R: person('Soren', 'Sandgaard', email = 's173686@student.dtu.dk', role = c('cre', 'aut'))
+Authors@R: c(person('Soren', 'Sandgaard', email = 's173686@student.dtu.dk', role = c('cre', 'aut')),
+            person(given = “Helene”,
+             family = “Wegener”
+             role = c("aut"), # There must be a "cre", but there can only be one
+             email = “s165827@student.dtu.dk”), 
+           person(given = “Lasse”,
+             family = “Rene”,
+             role = "aut",
+             email = “s183448@student.dtu.dk”),
+          person(given = “Aldis”,
+        		family = “Bjorgvinsdittir”,
+        		role = “aut”,
+        		email = “s212956@student.dtu.dk),
+        	person(given = “Mikkel”,
+        		family = “Swartz”,
+        		role = “aut”,
+        		email = “s174586@student.dtu.dk))
+        		
 Description: Tools for working with the central dogma. This is done using several functions available in this app.
 License: MIT + file LICENSE
 Imports: 
