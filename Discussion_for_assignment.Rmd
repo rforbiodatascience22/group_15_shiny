@@ -1,6 +1,6 @@
 ---
-title: "Discussion_Assignment"
-author: "s173686, 174586,"
+title: "Discussion_Assignment - Group 15"
+author: "s173686, 174586, s212956, s183448, s165827"
 date: '2022-03-28'
 output: pdf_document
 ---
@@ -12,13 +12,19 @@ knitr::opts_chunk$set(echo = TRUE)
 # Discussion about Shiny app creation
 
 **What did you find most challenging about creating a shiny app?**
+There are a lot of different files that you have to keep track of. It is not always clear what the purpose of the files are and what has to be in which files. 
 
 **What do you feel are the benefits and challenges with using golem for app development?**
+Once you have figured all the files out it is clear that there is a structure where each module is it's own file. So it can be quick and easy to use once you get a hang of it. golem is a skeleton that makes it easy to make shiny apps.
 
 **Maintaining reproducibility when using shiny apps is a challenge. As an example, some pharma-companies display databases to medical doctors for pointy-clicky data exploration. What are your thoughts on maintaining reproducibility in that scenario? What if the database is updated or the app is updated with new or changed functionality?**
+If the input data for an app is changing it might not produce the same result. With this app set up it seems fairly easy to change the expected input for the app. 
+The app does not tell you if there is a change in the database. You could build in an error message that tells you "Hey! I am getting data that I am not used to at line X."
 
 **What other challenges and limitations do you see shiny apps may have? Please elaborate.**
+It is possible to make an app in shiny and then changing it further in CSS. Using CSS might give more possibilities with UI.
+It is difficult to see the limitations after working with shiny for only a few hours without having met any limitations.
 
 *Deploy the updated app to shinyapps.io.*
-
-*Hand in a pdf with you discussion points and links to your shiny app GitHub page and the shinyapps.io app.*
+app: https://768yd1-mikkel-swartz.shinyapps.io/dnapro/ 
+github: https://github.com/rforbiodatascience22/group_15_shiny 
