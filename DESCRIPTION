@@ -3,7 +3,7 @@ Title: Application for conversion of amino acids
 Version: 0.0.0.9000
 Authors@R: c(
  .
-   )
+    )
 Description: Tools for working with the central dogma. This is done using
     several functions available in this app.
 License: MIT + file LICENSE
@@ -15,6 +15,7 @@ Imports:
     ggplot2,
     golem (>= 0.3.2),
     magrittr,
+    pkgload,
     shiny (>= 1.7.1)
 Suggests: 
     testthat (>= 3.0.0)

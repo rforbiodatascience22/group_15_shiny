@@ -82,7 +82,8 @@ mod_translate_server <- function(id){
     output$peptide <- renderText({
       # only show output if dna length is at least 3
       if (is.null(input$DNA)) {
-      } else if (nchar(input$DNA) < 3) {
+      } else
+      if (nchar(input$DNA) < 3) {
         NULL
       } else {
         input$DNA %>%
