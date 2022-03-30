@@ -12,7 +12,7 @@ app_ui <- function(request) {
     fluidPage(
       h1("dnapro"),
       tabsetPanel(
-        tabPanel(title = "Translate to Amino acids",
+        tabPanel(title = "Translate to amino acids",
                  mod_translate_ui("translate_1")),
         tabPanel(title = "Amino acid occurrence plot",
                  mod_aa_plot_ui("aa_plot_1"))
